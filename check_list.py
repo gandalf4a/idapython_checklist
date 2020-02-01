@@ -98,7 +98,6 @@ def CreateProcessAsUserW_check():
             return True
         idaapi.enum_import_names(i, imp_cb)
     print "CreateProcessAsUserW check over."
-CreateProcessAsUserW_check()
     
 def twos_compl(val, bits=32):
    """compute the 2's complement of int value val"""
